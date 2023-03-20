@@ -65,7 +65,7 @@ month.
 30 4 1,15 * * 
 Problem 27: Write a CRON expression that runs a job every 10 minutes on weekdays between 9:00 AM 
 and 5:00 PM.
-10 9-17 * * *
+10 9-17 * * 0-4
 Problem 28: Write a CRON expression that runs a job at 12:00 PM on the 3rd Wednesday of every 
 month.
 0 12 3 * 3
