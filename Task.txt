@@ -105,15 +105,23 @@ Problem 41: Write a CRON expression that runs a job at 12:00 PM on the first Mon
 Problem 42: Write a CRON expression that runs a job every 5 minutes on the first 10 days of January.
 5 0 1-10 1 * 
 Problem 43: Write a CRON expression that runs a job at 4:30 PM on weekdays in July and August.
+30 16 * 7,8 0-4
 Problem 44: Write a CRON expression that runs a job at 12:00 AM on the first day of every quarter 
-(January, April, July, and October).
+(January, April, July, and October)
+0 0 * 1,4,7,10 *
 Problem 45: Write a CRON expression that runs a job at 8:00 AM every day, except for the last day of the 
 month.
+0 8 1-30 * * 
 Problem 46: Write a CRON expression that runs a job every 2 hours between 10:00 PM and 6:00 AM.
+0 
 Problem 47: Write a CRON expression that runs a job at 1:30 PM on the second to last Friday of every 
 month.
+30 1 * * 5
 Problem 48: Write a CRON expression that runs a job at 5:30 PM on the first day of every month.
+30 17 1 * * 
 Problem 49: Write a CRON expression that runs a job at 3:00 AM on weekdays in the month of 
 November.
+0 3 * 11 0-4
 Problem 50: Write a CRON expression that runs a job every 10 minutes between 9:00 AM and 5:00 PM 
 on weekdays.
+10 9-17 * * 0-4 
