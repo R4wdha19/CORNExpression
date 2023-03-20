@@ -52,27 +52,40 @@ Problem 21: Write a CRON expression that runs a job at 3:30 AM every day except 
 30 3 * * 1-5
 Problem 22: Write a CRON expression that runs a job at the top of every hour between 9:00 AM and 
 5:00 PM on the 15th day of the month.
-
+0 9-17 15 * * 
 Problem 23: Write a CRON expression that runs a job at 8:15 AM every weekday except Friday.
+15 8 * * 0-4,6
 Problem 24: Write a CRON expression that runs a job at 10:00 PM every day in the month of December.
+0 22 * 12 * 
 Problem 25: Write a CRON expression that runs a job at the bottom of every hour (i.e., at :00 and :30 
 minutes past the hour) between 6:00 PM and midnight on weekdays.
+
 Problem 26: Write a CRON expression that runs a job at 4:30 PM on the 1st and 15th days of every 
 month.
+30 4 1,15 * * 
 Problem 27: Write a CRON expression that runs a job every 10 minutes on weekdays between 9:00 AM 
 and 5:00 PM.
+10 9-17 * * *
 Problem 28: Write a CRON expression that runs a job at 12:00 PM on the 3rd Wednesday of every 
 month.
+0 12 3 * 3
 Problem 29: Write a CRON expression that runs a job at 10:00 PM every Sunday in the months of July, 
 August, and September.
+0 10 * 7,8,9 0
 Problem 30: Write a CRON expression that runs a job at 12:00 PM every day except Sunday in the month 
 of July.
+0 12 * 7 1-6
 Problem 31: Write a CRON expression that runs a job at 11:30 PM every Friday.
+30 11 * * 5
 Problem 32: Write a CRON expression that runs a job at 3:15 AM every day.
+15 3 * * * 
 Problem 33: Write a CRON expression that runs a job every hour from 6:00 AM to 8:00 PM on weekdays.
+0 6-20 * * 0-4
 Problem 34: Write a CRON expression that runs a job every 30 minutes on the 15th and 30th day of 
 every month.
+30 0 15,30 * * 
 Problem 35: Write a CRON expression that runs a job every 5 minutes on the 1st day of every month.
+
 Problem 36: Write a CRON expression that runs a job every hour on the hour from 9:00 AM to 5:00 PM 
 on weekdays.
 Problem 37: Write a CRON expression that runs a job every 15 minutes from 2:00 PM to 10:00 PM on 
